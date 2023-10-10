@@ -1,0 +1,63 @@
+.container {
+    width: 490px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0 14px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+  }
+  .form-row {
+    padding-right: 40px;
+    margin-bottom: 50px;
+  }
+  h1 {
+    text-align: center;
+    color: #12A7B0;
+  }
+input [type=name], [type=number], [type=email] {
+    width: 170%;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #12A7B0;
+  }
+  select{
+    border-radius: 20px;
+    background-color: #12A7B0;
+  }
+input [type=radio]{
+    padding: 14px 38px;
+    background-color:#12A7B0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+  .nama {
+    width: 166%;
+    background-color: #12A7B0;
+    border-radius: 20px;
+    border: none;
+  }
+  .beda {
+    background-color: grey;
+    border: none;
+  }
+  .service {
+    width: 170%;
+    border-radius: 20px;
+    background-color: #12A7B0;
+  }
+  input[type=submit] {
+    width: 400%;
+    padding: 14px 38px;
+    background-color:#12A7B0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #006DB2;
+  }

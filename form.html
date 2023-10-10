@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Majapahit</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <section id="landingpage">
+        <div class="navbar">
+          <nav>
+            <a href="index.html" class="logo">
+              <img src="assets/recycle.png" alt="icon" />
+              GreenRecycle</a
+            >
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="tentangk.html">Tentang Kami</a></li>
+              <li><a href="#layanan">Layanan</a></li>
+              <li><a href="#tentangSampah">Tentang Sampah</a></li>
+              <div class="dropdown">
+              <li>
+                <button class="dropbtn"><a href="#account"><img class="vector" src="assets/vector.png" alt="account" />Account <img class="vector" src="assets/vector2.png" alt="panah" /></a></button>
+                    
+                    <div class="dropdown-content">
+                      <a  href="#"><img class="vector" src="assets/dompet.png" alt="">5000</a>
+                      <a href="#"><img class="vector" src="assets/poin.png" alt="">10 Poin</a>
+                      <a href="status.html"><img class="vector" src="assets/status.png" alt="">status</a>
+                    </div>
+              </li>
+            </div>
+            </ul>
+          </nav>
+        </div>
+    <div class="container">
+        <div class="form-row">
+    <form action=""></form>
+        <h1>Daftarkan Sampah</h1>
+        <table>
+            <tr>
+                <td>Jenis Sampah</td>
+                <td><input type="radio" name="jenisSampah" /> Organik
+                    <input type="radio" name="jenisSampah" /> Anorganik</td>
+            </tr>
+            <tr>
+                <td>No. Sampah</td>
+                <td><input type="number" name="number" class="beda"/></td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td><input type="name" name="nama" class="nama"/></td>
+            </tr>
+            <tr>
+                <td>No. Hp</td>
+                <td><input type="number" name="number" /></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" name="email" /></td>
+            </tr> 
+            <tr>
+                <td>Sampah</td>
+                <td><select name="Sampah1">
+                    <option value="splastik"> Sampah Plastik</option>
+                    <option value="skertas"> Sampah Kertas</option>
+                    <option value="tranfers"> Transfer Sampah</option>
+                    <option value="sbotol"> Sampah Botol</option>
+                    <option value="sbesi"> Sampah Besi</option>
+                </select></td>
+                <td><select name="Sampah2">
+                    <option value="pet"> Pet</option>
+                    <option value="paralon"> Paralon</option>
+                    <option value="kardus"> Kardus</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Jumlah</td>
+                <td><input type="number" name="number" /></td>
+            </tr>
+            <tr>
+                <td>Jenis Service</td>
+                <td><select name="jenisService" class="service">
+                    <option value="diambil"> Diambil</option>
+                    <option value="diantar"> Diantar</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><br><input type="submit" name="submit" value="Kirim"/></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
