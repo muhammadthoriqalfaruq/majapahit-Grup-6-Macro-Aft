@@ -34,22 +34,18 @@
   background-color:  #12A7B0;
 }
 .round-image img {
-  padding: 25px;
-  width: 80px;
-  height: 80px;
+  width: 80%;
+  height: auto;
 }
 .icon span {
   display: block;
   color: black;
   font-size: 36px;
+  font-weight: bold;
   margin-top: 10px;
   font-size: 22px;
 }
 h1 {
     text-align: center;
-    font-size: 25px;
     color: #12A7B0;
-}
-.no {
-  background-color: #12A7B0;
 }
