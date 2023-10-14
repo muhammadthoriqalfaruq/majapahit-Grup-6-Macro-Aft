@@ -1,103 +1,105 @@
 .home p:nth-child(1) {
-    color: #12a7b0;
-    font-size: 24px;
-    margin-top: 150px;
-    margin-bottom: 5px;
-    margin-left: 80px;
-  }
+  color: #12a7b0;
+  font-size: 24px;
+  margin-top: 150px;
+  margin-bottom: 5px;
+  margin-left: 80px;
+  right: 10px;
+  left: 10px;
+}
 .home p:nth-child(2) {
-    color: black;
-    font-size: 48px;
-    font-weight: bold;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 80px;
-  }
-  
-  .home p:nth-child(3) {
-    width: 50%;
-    margin-top: 5px;
-    color: black;
-    font-size: 20px;
-    margin-left: 80px;
-  }
-  
-  .picture {
-    width: 320px;
-    height: auto;
-    margin-top: 100px;
-    margin-left: 110px;
-    position: absolute;
-    left: 80%;
-    top: 20%;
-    transform: translate(-70%);
-  }
-  
-  .home2 {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    font-size: 48px;
-    font-weight: bold;
-    color: black;
-    text-align: center;
-  }
-  
-  .transaksi {
-    height: 28vh;
-    background: linear-gradient(to bottom, #12a7b0, rgba(76, 175, 80, 0));
-    padding: 8% 10% 10%;
-  }
-  
-  .icon-text-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .icon {
-    text-align: center;
-    color: black;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  
-  .round-image {
-    width: 130px;
-    height: auto;
-    border-radius: 70%;
-    overflow: hidden;
-    background-color: #ffffff;
-  }
-  
-  .round-image img {
-    padding: 25px;
-    width: 80px;
-    height: 80px;
-  }
-  
-  .icon span {
-    display: block;
-    color: black;
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  .riwayat {
-    height: 85vh;
-    margin-top: 50px;
-    position: relative;
-  }
-  
-  .riwayat p {
-    font-size: 48px;
-    font-weight: bold;
-    color: black;
-    margin-left: 90px;
-  }
-  
-  ul {
-    list-style-type: circle;
-    font-size: 24px;
-    margin-left: 95px;
-    line-height: 1.8;
-  }
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 80px;
+}
+
+.home p:nth-child(3) {
+  width: 50%;
+  margin-top: 5px;
+  color: black;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.picture {
+  width: 320px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 110px;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+  transform: translate(-70%);
+}
+
+.home2 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.transaksi {
+  height: 28vh;
+  background: linear-gradient(to bottom, #12a7b0, rgba(76, 175, 80, 0));
+  padding: 8% 10% 10%;
+}
+
+.icon-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  text-align: center;
+  color: black;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.round-image {
+  width: 130px;
+  height: auto;
+  border-radius: 70%;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.round-image img {
+  padding: 25px;
+  width: 80px;
+  height: 80px;
+}
+
+.icon span {
+  display: block;
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.riwayat {
+  height: 85vh;
+  margin-top: 50px;
+  position: relative;
+}
+
+.riwayat p {
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  margin-left: 90px;
+}
+
+ul {
+  list-style-type: circle;
+  font-size: 24px;
+  margin-left: 95px;
+  line-height: 1.8;
+}

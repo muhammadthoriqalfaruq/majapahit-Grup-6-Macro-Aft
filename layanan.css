@@ -1,0 +1,10 @@
+.btn-setor {
+  background-color: aqua;
+  color: black;
+  padding: 5px 3px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  list-style: none;
+}
