@@ -1,7 +1,22 @@
+#layanan {
+  width: 100%;
+  height: 105vh;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.layanan {
+  padding: 5% 5% 1%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .btn-setor {
   background-color: white;
   color: black;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border-radius: 20px;
   font-size: 18px;
   transition: background-color 0.3s;
@@ -12,19 +27,67 @@
   border: 2px solid black;
 }
 
-#layanan {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
-.layanan {
-  padding: 5% 10% 10%;
-  background-color: #585858;
-  align-items: center;
-  justify-content: center;
+.layanan h1 {
+  display: inline-block;
+  text-align: center;
+  font-size: 57px;
+  font-weight: bold;
 }
 
 .layanan .btn-setor {
   float: right;
+}
+
+.hargasampah {
+  padding: 1% 5% 8%;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hargasampah p {
+  padding: 5px;
+}
+
+.overflow-x-auto {
+  text-align: center;
+}
+
+.overflow-x-auto p {
+  text-align: left;
+  padding: 0% 17% 0%;
+  font-size: 32px;
+  font-weight: bold;
+  color: #12a7b0;
+}
+
+#plastik {
+  padding: 0% 5% 1%;
+  position: relative;
+}
+
+.btn-kembali {
+  display: flex;
+  justify-content: end;
+  padding: 2%;
+  margin-right: 15%;
+}
+
+#kertas {
+  padding: 0% 5% 1%;
+  position: relative;
+}
+
+#besi {
+  padding: 0% 5% 1%;
+  position: relative;
+}
+
+#botol {
+  padding: 0% 5% 1%;
+  position: relative;
+}
+
+#sampahlain {
+  padding: 0% 5% 1%;
+  position: relative;
 }
