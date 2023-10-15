@@ -1,56 +1,72 @@
-h1,p {
-    text-align: center;
+h1,
+p {
+  text-align: center;
 }
-.icon-text-container {
-    display: flex;
-    justify-content: center;
-  }
-  .icon {
-    text-align: center;
-    color: black;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  .round-image {
-    width: 130px;
-    height: auto;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color:  #12A7B0;
-  }
-  .round-image img {
-    width: 80%;
-    height: auto;
-  }
-  .icon span {
-    display: block;
-    color: black;
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 10px;
-  }
 .tentangk {
-    width: 855px;
-    height: 532px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 855px;
+  height: 532px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.tentangk3 {
-    width: 307px;
-    height: 406px;
-    float: left;
-    margin: 5px;
+
+.isi p:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 150px;
 }
-.tentangk4 {
-    width: 307px;
-    height: 406px;
+
+.isi p:nth-child(5) {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 90px;
 }
-.tentangk5 {
-    width: 307px;
-    height: 406px;
+
+.icon-text-container {
+  display: flex;
+  justify-content: center;
 }
-.tentangk6 {
-    width: 307px;
-    height: 406px;
+
+.icon {
+  text-align: center;
+  color: black;
+}
+
+.round-image {
+  width: 130px;
+  height: auto;
+  border-radius: 70%;
+  overflow: hidden;
+  background-color: #12a7b0;
+  display: block;
+  margin: 50px;
+}
+
+.round-image img {
+  padding: 25px;
+  width: 80px;
+  height: 80px;
+}
+
+.icon span {
+  display: block;
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.image-container {
+  display: inline-block;
+  border-radius: 0%;
+  overflow: hidden;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.image-container img {
+  display: block;
+  width: 307px;
+  height: 406px;
 }
