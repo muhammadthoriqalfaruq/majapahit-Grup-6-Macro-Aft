@@ -1,11 +1,11 @@
 .container1 {
-    width: 950px;
-    height: 500px;
-    margin: auto;
-    margin-top: 50px;
-    padding: 0 14px;
-    box-sizing: border-box;
-    border: 1px solid grey;
+  width: 950px;
+  height: 500px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 0 14px;
+  box-sizing: border-box;
+  border: 1px solid grey;
 }
 .container2 {
   width: 950px;
@@ -31,7 +31,7 @@
   height: auto;
   border-radius: 50%;
   overflow: hidden;
-  background-color:  #12A7B0;
+  background-color: #12a7b0;
 }
 .round-image img {
   width: 80%;
@@ -46,6 +46,6 @@
   font-size: 22px;
 }
 h1 {
-    text-align: center;
-    color: #12A7B0;
+  text-align: center;
+  color: #12a7b0;
 }
