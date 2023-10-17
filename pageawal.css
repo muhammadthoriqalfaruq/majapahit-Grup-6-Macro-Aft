@@ -23,10 +23,6 @@ nav {
   background-color: #12a7b0;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
   padding: 0px 5%;
-  position: fixed;
-  width: 90%;
-  top: 0;
-  z-index: 1;
 }
 
 nav ul {
@@ -86,6 +82,7 @@ nav ul li a:hover {
   left: 10%;
   right: 10%;
   transform: translate(0%, 10%);
+  margin-top: 100px;
 }
 
 .home p {
