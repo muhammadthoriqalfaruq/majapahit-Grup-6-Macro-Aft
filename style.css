@@ -10,8 +10,8 @@ ul {
 
 .vector {
   width: 30px;
-  margin-right: 20px;
-  margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
 nav a {
@@ -29,19 +29,25 @@ nav {
   height: 95px;
   background-color: #12a7b0;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
-  padding: 0px 5%;
+  padding-left: 50px;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
+  margin-right: 40px;
 }
 
 nav ul li a {
   margin: 10px;
   color: white;
   font-size: 20px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .logo {
   font-family: "Poppins", sans-serif;
