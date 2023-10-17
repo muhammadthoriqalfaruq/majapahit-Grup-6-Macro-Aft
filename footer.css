@@ -51,10 +51,6 @@
   right: 10%;
 }
 
-button {
-  display: flex;
-}
-
 .ea {
   background-color: #12a7b0;
   font-family: "poppins", sans-serif;
@@ -73,7 +69,6 @@ button {
   height: 60px;
   width: 10px;
   left: 10%;
-  position: relative;
   margin-left: 650px;
   transform: translate(0%, -130%);
 }

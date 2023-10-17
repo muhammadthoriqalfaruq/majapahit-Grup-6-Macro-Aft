@@ -26,47 +26,52 @@ p {
   display: flex;
   justify-content: center;
 }
-
 .icon {
   text-align: center;
   color: black;
+  margin-right: 20px;
+  margin-left: 20px;
 }
-
 .round-image {
   width: 130px;
   height: auto;
-  border-radius: 70%;
+  border-radius: 50%;
   overflow: hidden;
   background-color: #12a7b0;
-  display: block;
-  margin: 50px;
 }
-
 .round-image img {
-  padding: 25px;
-  width: 80px;
-  height: 80px;
+  width: 80%;
+  height: auto;
 }
-
 .icon span {
   display: block;
   color: black;
-  font-size: 25px;
-  margin-left: 20px;
+  font-size: 36px;
+  font-weight: bold;
   margin-top: 10px;
 }
-
-.image-container {
-  display: inline-block;
-  border-radius: 0%;
-  overflow: hidden;
-  margin: 10px;
-  margin-left: 15px;
-  margin-right: 10px;
-}
-
-.image-container img {
+.tentangk {
+  width: 855px;
+  height: 532px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tentangk3 {
+  width: 307px;
+  height: 406px;
+  float: left;
+  margin: 5px;
+}
+.tentangk4 {
+  width: 307px;
+  height: 406px;
+}
+.tentangk5 {
+  width: 307px;
+  height: 406px;
+}
+.tentangk6 {
   width: 307px;
   height: 406px;
 }
