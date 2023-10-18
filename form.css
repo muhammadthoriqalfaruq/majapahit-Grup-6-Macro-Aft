@@ -1,63 +1,88 @@
 .container {
-    width: 490px;
-    margin: auto;
-    margin-top: 50px;
-    padding: 0 14px;
-    box-sizing: border-box;
-    border: 1px solid grey;
-  }
-  .form-row {
-    padding-right: 40px;
-    margin-bottom: 50px;
-  }
-  h1 {
-    text-align: center;
-    color: #12A7B0;
-  }
-input [type=name], [type=number], [type=email] {
-    width: 170%;
-    border-radius: 20px;
-    border: none;
-    box-sizing: border-box;
-    background-color: #12A7B0;
-  }
-  select{
-    border-radius: 20px;
-    background-color: #12A7B0;
-  }
-input [type=radio]{
-    padding: 14px 38px;
-    background-color:#12A7B0;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
+  width: 490px;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  padding: 0 14px;
+  box-sizing: border-box;
+  border: 1px solid grey;
 }
-  .nama {
-    width: 166%;
-    background-color: #12A7B0;
-    border-radius: 20px;
-    border: none;
-  }
-  .beda {
-    background-color: grey;
-    border: none;
-  }
-  .service {
-    width: 170%;
-    border-radius: 20px;
-    background-color: #12A7B0;
-  }
-  input[type=submit] {
-    width: 400%;
-    padding: 14px 38px;
-    background-color:#12A7B0;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #006DB2;
-  }
+.form-row {
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+h1 {
+  text-align: center;
+  color: #12a7b0;
+}
+input [type="name"],
+[type="number"],
+[type="email"] {
+  width: 170%;
+  border-radius: 20px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #12a7b0;
+  color: white;
+}
+select {
+  border-radius: 20px;
+  background-color: #12a7b0;
+  color: white;
+}
+input [type="radio"] {
+  padding: 14px 38px;
+  background-color: #12a7b0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.nama {
+  width: 166%;
+  background-color: #12a7b0;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+.beda {
+  background-color: grey;
+  border: none;
+}
+.service {
+  width: 170%;
+  border-radius: 20px;
+  background-color: #12a7b0;
+}
+input[type="submit"] {
+  width: 400%;
+  padding: 14px 38px;
+  background-color: #12a7b0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #006db2;
+}
+
+.btn-kirim {
+  list-style: none;
+  text-decoration: none;
+  background-color: #12a7b0;
+  border: none;
+  color: white;
+  padding: 1px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  transform: translate(190%);
+}
+
+select option {
+  color: white;
+}

@@ -61,12 +61,12 @@ p {
   border-radius: 0%;
   overflow: hidden;
   margin: 10px;
-  margin-left: 15px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
 .image-container img {
   display: block;
-  width: 307px;
-  height: 406px;
+  width: 290px;
+  height: 390px;
 }

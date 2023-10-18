@@ -85,3 +85,18 @@
   padding: 0% 5% 1%;
   position: relative;
 }
+
+.sosmed {
+  display: flex;
+  align-items: center;
+  padding: 1% 10% 0%;
+  height: 60px;
+  width: 10px;
+  left: 10%;
+  margin-left: 650px;
+  transform: translate(0%, -130%);
+}
+
+.sosmed img {
+  margin: 40px;
+}

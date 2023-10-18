@@ -32,6 +32,7 @@
   border-radius: 50%;
   overflow: hidden;
   background-color: #12a7b0;
+  margin-left: 25%;
 }
 .round-image img {
   width: 80%;
@@ -48,4 +49,11 @@
 h1 {
   text-align: center;
   color: #12a7b0;
+}
+
+.nomor {
+  background-color: #12a7b0;
+  color: white;
+  padding: 2px 20px;
+  border-radius: 15px;
 }
